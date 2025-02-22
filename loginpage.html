@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/stylelogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="./login.js"></script>
+    <title>Login Screen</title>
+</head>
+<body>
+    
+    <div class="contanierlogin">
+    <div class="contanierbox">
+        <div class="login">
+            <h1>Login</h1>
+        </div>
+        <div  class="inputbox" >
+            <input id="loginUserName" class="inputbox1" type="text" placeholder="Username" required >
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="inputbox">
+            <input id="loginpassword" class="inputbox2" type="password" placeholder="Password" required>
+            <i class='bx bxs-lock-alt' ></i>
+        </div>
+    <div class="remember-forgot">
+        <input type="checkbox" class="checkboxLogin">
+        <label name="rememberme" >Remember Me </label>
+    <a class="forgot" href="#">Forgot Password?</a>
+    </div>
+    <div class="btn">
+    <button id="loginsubmitbutton"class="sumbitbox" type="sumbit">Login</button>
+</div>
+    <div class="donthaveaccount">
+        <p>Don't have an account? <a class="register" href="signuppage.html">Register</a></p> 
+    </div>
+</div>
+</div>
+
+</body>
+</html>
